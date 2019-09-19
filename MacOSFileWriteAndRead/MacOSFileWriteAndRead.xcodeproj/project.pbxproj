@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0459C38D233359440073771E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459C38C233359440073771E /* AppDelegate.swift */; };
+		0459C38F233359440073771E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459C38E233359440073771E /* ViewController.swift */; };
+		0459C391233359460073771E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0459C390233359460073771E /* Assets.xcassets */; };
+		0459C394233359460073771E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0459C392233359460073771E /* Main.storyboard */; };
+		0459C3A0233359460073771E /* MacOSFileWriteAndReadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459C39F233359460073771E /* MacOSFileWriteAndReadTests.swift */; };
+		0459C3AB233359460073771E /* MacOSFileWriteAndReadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0459C3AA233359460073771E /* MacOSFileWriteAndReadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0459C39C233359460073771E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0459C381233359440073771E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0459C388233359440073771E;
+			remoteInfo = MacOSFileWriteAndRead;
+		};
+		0459C3A7233359460073771E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0459C381233359440073771E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0459C388233359440073771E;
+			remoteInfo = MacOSFileWriteAndRead;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0459C389233359440073771E /* MacOSFileWriteAndRead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOSFileWriteAndRead.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0459C38C233359440073771E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0459C38E233359440073771E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0459C390233359460073771E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0459C393233359460073771E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0459C395233359460073771E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0459C396233359460073771E /* MacOSFileWriteAndRead.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacOSFileWriteAndRead.entitlements; sourceTree = "<group>"; };
+		0459C39B233359460073771E /* MacOSFileWriteAndReadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacOSFileWriteAndReadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0459C39F233359460073771E /* MacOSFileWriteAndReadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSFileWriteAndReadTests.swift; sourceTree = "<group>"; };
+		0459C3A1233359460073771E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0459C3A6233359460073771E /* MacOSFileWriteAndReadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacOSFileWriteAndReadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0459C3AA233359460073771E /* MacOSFileWriteAndReadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSFileWriteAndReadUITests.swift; sourceTree = "<group>"; };
+		0459C3AC233359460073771E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0459C386233359440073771E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0459C398233359460073771E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0459C3A3233359460073771E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0459C380233359440073771E = {
+			isa = PBXGroup;
+			children = (
+				0459C38B233359440073771E /* MacOSFileWriteAndRead */,
+				0459C39E233359460073771E /* MacOSFileWriteAndReadTests */,
+				0459C3A9233359460073771E /* MacOSFileWriteAndReadUITests */,
+				0459C38A233359440073771E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0459C38A233359440073771E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0459C389233359440073771E /* MacOSFileWriteAndRead.app */,
+				0459C39B233359460073771E /* MacOSFileWriteAndReadTests.xctest */,
+				0459C3A6233359460073771E /* MacOSFileWriteAndReadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0459C38B233359440073771E /* MacOSFileWriteAndRead */ = {
+			isa = PBXGroup;
+			children = (
+				0459C38C233359440073771E /* AppDelegate.swift */,
+				0459C38E233359440073771E /* ViewController.swift */,
+				0459C390233359460073771E /* Assets.xcassets */,
+				0459C392233359460073771E /* Main.storyboard */,
+				0459C395233359460073771E /* Info.plist */,
+				0459C396233359460073771E /* MacOSFileWriteAndRead.entitlements */,
+			);
+			path = MacOSFileWriteAndRead;
+			sourceTree = "<group>";
+		};
+		0459C39E233359460073771E /* MacOSFileWriteAndReadTests */ = {
+			isa = PBXGroup;
+			children = (
+				0459C39F233359460073771E /* MacOSFileWriteAndReadTests.swift */,
+				0459C3A1233359460073771E /* Info.plist */,
+			);
+			path = MacOSFileWriteAndReadTests;
+			sourceTree = "<group>";
+		};
+		0459C3A9233359460073771E /* MacOSFileWriteAndReadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0459C3AA233359460073771E /* MacOSFileWriteAndReadUITests.swift */,
+				0459C3AC233359460073771E /* Info.plist */,
+			);
+			path = MacOSFileWriteAndReadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0459C388233359440073771E /* MacOSFileWriteAndRead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0459C3AF233359460073771E /* Build configuration list for PBXNativeTarget "MacOSFileWriteAndRead" */;
+			buildPhases = (
+				0459C385233359440073771E /* Sources */,
+				0459C386233359440073771E /* Frameworks */,
+				0459C387233359440073771E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacOSFileWriteAndRead;
+			productName = MacOSFileWriteAndRead;
+			productReference = 0459C389233359440073771E /* MacOSFileWriteAndRead.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0459C39A233359460073771E /* MacOSFileWriteAndReadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0459C3B2233359460073771E /* Build configuration list for PBXNativeTarget "MacOSFileWriteAndReadTests" */;
+			buildPhases = (
+				0459C397233359460073771E /* Sources */,
+				0459C398233359460073771E /* Frameworks */,
+				0459C399233359460073771E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0459C39D233359460073771E /* PBXTargetDependency */,
+			);
+			name = MacOSFileWriteAndReadTests;
+			productName = MacOSFileWriteAndReadTests;
+			productReference = 0459C39B233359460073771E /* MacOSFileWriteAndReadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0459C3A5233359460073771E /* MacOSFileWriteAndReadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0459C3B5233359460073771E /* Build configuration list for PBXNativeTarget "MacOSFileWriteAndReadUITests" */;
+			buildPhases = (
+				0459C3A2233359460073771E /* Sources */,
+				0459C3A3233359460073771E /* Frameworks */,
+				0459C3A4233359460073771E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0459C3A8233359460073771E /* PBXTargetDependency */,
+			);
+			name = MacOSFileWriteAndReadUITests;
+			productName = MacOSFileWriteAndReadUITests;
+			productReference = 0459C3A6233359460073771E /* MacOSFileWriteAndReadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0459C381233359440073771E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = chousigou;
+				TargetAttributes = {
+					0459C388233359440073771E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					0459C39A233359460073771E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 0459C388233359440073771E;
+					};
+					0459C3A5233359460073771E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 0459C388233359440073771E;
+					};
+				};
+			};
+			buildConfigurationList = 0459C384233359440073771E /* Build configuration list for PBXProject "MacOSFileWriteAndRead" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0459C380233359440073771E;
+			productRefGroup = 0459C38A233359440073771E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0459C388233359440073771E /* MacOSFileWriteAndRead */,
+				0459C39A233359460073771E /* MacOSFileWriteAndReadTests */,
+				0459C3A5233359460073771E /* MacOSFileWriteAndReadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0459C387233359440073771E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0459C391233359460073771E /* Assets.xcassets in Resources */,
+				0459C394233359460073771E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0459C399233359460073771E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0459C3A4233359460073771E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0459C385233359440073771E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0459C38F233359440073771E /* ViewController.swift in Sources */,
+				0459C38D233359440073771E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0459C397233359460073771E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0459C3A0233359460073771E /* MacOSFileWriteAndReadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0459C3A2233359460073771E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0459C3AB233359460073771E /* MacOSFileWriteAndReadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0459C39D233359460073771E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0459C388233359440073771E /* MacOSFileWriteAndRead */;
+			targetProxy = 0459C39C233359460073771E /* PBXContainerItemProxy */;
+		};
+		0459C3A8233359460073771E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0459C388233359440073771E /* MacOSFileWriteAndRead */;
+			targetProxy = 0459C3A7233359460073771E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0459C392233359460073771E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0459C393233359460073771E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0459C3AD233359460073771E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0459C3AE233359460073771E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0459C3B0233359460073771E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MacOSFileWriteAndRead/MacOSFileWriteAndRead.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MacOSFileWriteAndRead/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chousigou.MacOSFileWriteAndRead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0459C3B1233359460073771E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MacOSFileWriteAndRead/MacOSFileWriteAndRead.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MacOSFileWriteAndRead/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chousigou.MacOSFileWriteAndRead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0459C3B3233359460073771E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MacOSFileWriteAndReadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chousigou.MacOSFileWriteAndReadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacOSFileWriteAndRead.app/Contents/MacOS/MacOSFileWriteAndRead";
+			};
+			name = Debug;
+		};
+		0459C3B4233359460073771E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MacOSFileWriteAndReadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chousigou.MacOSFileWriteAndReadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacOSFileWriteAndRead.app/Contents/MacOS/MacOSFileWriteAndRead";
+			};
+			name = Release;
+		};
+		0459C3B6233359460073771E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MacOSFileWriteAndReadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chousigou.MacOSFileWriteAndReadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacOSFileWriteAndRead;
+			};
+			name = Debug;
+		};
+		0459C3B7233359460073771E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MacOSFileWriteAndReadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chousigou.MacOSFileWriteAndReadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacOSFileWriteAndRead;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0459C384233359440073771E /* Build configuration list for PBXProject "MacOSFileWriteAndRead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0459C3AD233359460073771E /* Debug */,
+				0459C3AE233359460073771E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0459C3AF233359460073771E /* Build configuration list for PBXNativeTarget "MacOSFileWriteAndRead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0459C3B0233359460073771E /* Debug */,
+				0459C3B1233359460073771E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0459C3B2233359460073771E /* Build configuration list for PBXNativeTarget "MacOSFileWriteAndReadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0459C3B3233359460073771E /* Debug */,
+				0459C3B4233359460073771E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0459C3B5233359460073771E /* Build configuration list for PBXNativeTarget "MacOSFileWriteAndReadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0459C3B6233359460073771E /* Debug */,
+				0459C3B7233359460073771E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0459C381233359440073771E /* Project object */;
+}
